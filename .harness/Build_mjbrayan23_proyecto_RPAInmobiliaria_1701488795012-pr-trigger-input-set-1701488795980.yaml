@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_mjbrayan23_proyecto_RPAInmobiliaria_1701488795012-pr-trigger-input-set
+  identifier: Build_mjbrayan23_proyecto_RPAInmobiliaria_1701488795012prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_mjbrayan23_proyecto_RPAInmobiliaria_1701488795012
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
