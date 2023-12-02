@@ -1,0 +1,33 @@
+pipeline:
+  identifier: Build_mjbrayan23_proyecto_RPAInmobiliaria_1701490968895
+  name: Build proyecto-RPAInmobiliaria
+  orgIdentifier: default
+  projectIdentifier: default_project
+  properties:
+    ci:
+      codebase:
+        build: <+input>
+        connectorRef: account.Github_OAuth_1701488763137
+        repoName: mjbrayan23/proyecto-RPAInmobiliaria
+  stages:
+    - stage:
+        identifier: build
+        name: build
+        spec:
+          cloneCodebase: true
+          execution:
+            steps:
+              - step:
+                  identifier: echo
+                  name: echo
+                  spec:
+                    command: echo hello world
+                  timeout: ""
+                  type: Run
+          platform:
+            arch: Amd64
+            os: Linux
+          runtime:
+            spec: {}
+            type: Cloud
+        type: CI
