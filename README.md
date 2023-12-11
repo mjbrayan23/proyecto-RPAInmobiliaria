@@ -22,7 +22,7 @@ En resumen: El resultado final del proyecto para RPA INMOBILIARIA será un siste
 - [Problema](#problema)
 - [Solución](#solución)
 - [Arquitectura](#arquitectura)
-- [Servidores de Aplicación y Web](#Servidores)
+- [Servidores de Aplicación y Web](#servidores)
 - [Bases de Datos](#bd)
 - [Paquetes Adicionales](#adicionales)
 - [Versión de Java](#versión)
