@@ -43,7 +43,29 @@ La solución consiste en una plataforma web que digitaliza los procesos en 4 mó
 Esto permite automatizar tareas manuales, reducir errores, mejorar eficiencia y satisfacción del cliente.
 
 ## Arquitectura
-La arquitectura técnica utiliza React para el frontend, Node.js en el backend, bases de datos MySQL, implementado en AWS para escalabilidad. La interfaz de usuario es responsive, intuitiva y sigue estándares de accesibilidad.
+Infraestructura: El sistema debe estar alojado en la nube, utilizando servicios como AWS o Azure. Esto proporcionará escalabilidad, redundancia y seguridad.
+Tecnología: El sistema debe utilizar RPA para automatizar las tareas repetitivas y manuales. Las herramientas de RPA más comunes son UiPath, Blue Prism y Automation Anywhere.
+Datos: Los datos del sistema deben almacenarse en una base de datos relacional, como MySQL o PostgreSQL. Esto permitirá realizar consultas complejas y análisis de datos.
+La siguiente imagen muestra un diagrama de arquitectura de alto nivel para el proyecto:
+
+El diagrama muestra los siguientes componentes:
+
+Frontend: La interfaz de usuario del sistema, que estará disponible en los navegadores web y móviles.
+Backend: El núcleo del sistema, que incluye la lógica de negocio y la integración con los sistemas existentes.
+RPA: El motor de RPA, que automatiza las tareas repetitivas y manuales.
+Base de datos: La base de datos que almacena los datos del sistema.
+La arquitectura propuesta proporciona una base sólida para el proyecto. Es escalable, segura y utiliza las tecnologías más adecuadas para el trabajo.
+
+Además de los componentes mencionados anteriormente, el sistema también puede incluir los siguientes componentes:
+
+Servicios de seguridad: Para proteger los datos del sistema contra el acceso no autorizado.
+Servicios de análisis: Para analizar los datos del sistema y generar informes.
+Servicios de integración: Para integrar el sistema con otros sistemas existentes.
+La inclusión de estos componentes adicionales dependerá de los requisitos específicos del proyecto.
+
+![INMOBILIARIA drawio](https://github.com/mjbrayan23/proyecto-RPAInmobiliaria/assets/84410509/b205d244-156b-41c3-9755-144f06ffb0f4)
+
+
 
 
 
