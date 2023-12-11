@@ -143,30 +143,26 @@ heroku run npm run migrate
 Recuerda reemplazar `nombre-de-tu-app` con el nombre que le quieras dar a tu aplicación en Heroku y ajustar cualquier comando según las necesidades específicas de tu proyecto.
 ```
 
-# Requisitos del Sistema
+# Configuración
 
-## Servidores
-- **Aplicación:** Apache Tomcat 9.x
-- **Web:** Nginx 1.18.x
-- **Balanceador de Carga:** AWS Elastic Load Balancing
+## Configuración-Producto
 
-## BD
-- **Sistema de Gestión de Bases de Datos:** PostgreSQL 12.5
-- **Configuración:** 
-  - Tamaño de Instancia: db.m4.large
-  - Almacenamiento: SSD de 500 GB
+Antes de ejecutar la aplicación, necesitas configurar los archivos de entorno:
 
-## Adicionales
-- **Framework de Seguridad:** Spring Security 5.4.x
-- **Autenticación:** OAuth 2.0
-- **Librerías de Frontend:** React 17.x, Redux 4.x
+```bash
+# Copia el archivo de ejemplo de configuración y ajusta los valores según tu entorno
+cp .env.example .env
 
-## Versión-Java
-- **JDK:** OpenJDK 11
+# Edita el archivo .env con las variables de entorno necesarias
+# Por ejemplo, define las conexiones a la base de datos, claves de API, etc.
 
-## Dependencias
-- **Gestión de Paquetes:** Maven 3.6.x
-- **Control de Versiones:** Git 2.30.x
+# Por ejemplo, si necesitas instalar un servidor de base de datos como MySQL:
+sudo apt-get install mysql-server
+
+# O si necesitas configurar un servidor web como Nginx:
+sudo apt-get install nginx
+
+Este formato proporciona un esqueleto básico para documentar los pasos de configuración. Deberás personalizar el contenido con los detalles específicos de tu proyecto y su entorno.
 ```
 
 
