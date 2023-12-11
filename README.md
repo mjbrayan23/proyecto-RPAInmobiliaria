@@ -31,6 +31,7 @@ En resumen: El resultado final del proyecto para RPA INMOBILIARIA será un siste
 - [Configuración-Producto](#Configuración-Producto)
 - [Uso](#Uso)
 - [Contribución](#Contribución)
+- [Roadmap](Roadmap)
 
 ## Descripción
 El proyecto consiste en el desarrollo de un sistema digital integral para la gestión de propiedades de la empresa RPA Inmobiliaria. El sistema busca automatizar y optimizar los procesos administrativos y operativos relacionados con la administración de condominios.
@@ -248,6 +249,18 @@ Agradecemos las contribuciones de todos los usuarios. Si deseas contribuir al pr
 5. Asegúrate de revisar la documentación del proyecto y cualquier otra guía de contribución proporcionada para más detalles sobre el proceso de contribución.
 ```bash
 Asegúrate de personalizar las instrucciones de contribución para adaptarse a las políticas y procedimientos específicos de tu proyecto.
+```
+# Roadmap
+
+El desarrollo futuro del proyecto `proyecto-RPAInmobiliaria` incluirá varias mejoras y nuevas funcionalidades. Algunos de los requerimientos planificados son:
+
+- **Integración de Pagos en Línea:** Implementar opciones de pago en línea para facilitar transacciones más rápidas y seguras.
+- **Módulo de Inteligencia Artificial:** Desarrollar un sistema de análisis predictivo para identificar tendencias del mercado inmobiliario.
+- **Aplicación Móvil:** Crear una aplicación móvil para proporcionar acceso fácil y rápido a la plataforma.
+- **Mejoras en la Interfaz de Usuario:** Continuar mejorando la experiencia del usuario, basándose en feedback y estudios de usabilidad.
+- **Funcionalidades de Reportes Avanzados:** Ampliar las capacidades de generación de informes para ofrecer análisis más profundos y personalizables.
+
+Estos elementos se implementarán progresivamente, con el objetivo de mejorar continuamente la plataforma y satisfacer las necesidades de los usuarios.
 
 
 
