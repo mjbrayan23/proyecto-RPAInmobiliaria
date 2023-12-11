@@ -163,7 +163,7 @@ sudo apt-get install mysql-server
 sudo apt-get install nginx
 
 Este formato proporciona un esqueleto básico para documentar los pasos de configuración. Deberás personalizar el contenido con los detalles específicos de tu proyecto y su entorno.
-```
+
 
 
 
