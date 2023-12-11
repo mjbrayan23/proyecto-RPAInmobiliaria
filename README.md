@@ -22,6 +22,11 @@ En resumen: El resultado final del proyecto para RPA INMOBILIARIA será un siste
 - [Problema](#problema)
 - [Solución](#solución)
 - [Arquitectura](#arquitectura)
+- [Servidores de Aplicación y Web](#Servidores)
+- [Bases de Datos](#bd)
+- [Paquetes Adicionales](#adicionales)
+- [Versión de Java](#versión)
+- [Dependencias de Software](#dependencias)
 
 ## Descripción
 El proyecto consiste en el desarrollo de un sistema digital integral para la gestión de propiedades de la empresa RPA Inmobiliaria. El sistema busca automatizar y optimizar los procesos administrativos y operativos relacionados con la administración de condominios.
@@ -65,7 +70,27 @@ La inclusión de estos componentes adicionales dependerá de los requisitos espe
 
 ![INMOBILIARIA drawio](https://github.com/mjbrayan23/proyecto-RPAInmobiliaria/assets/84410509/b205d244-156b-41c3-9755-144f06ffb0f4)
 
+# Requisitos del Sistema
 
+## Servidores de Aplicación y Web
+- **Aplicación:** Apache Tomcat 9.x
+- **Web:** Nginx 1.18.x
+- **Balanceador de Carga:** AWS Elastic Load Balancing
 
+## Bases de Datos
+- **Sistema de Gestión de Bases de Datos:** PostgreSQL 12.5
+- **Configuración:** 
+  - Tamaño de Instancia: db.m4.large
+  - Almacenamiento: SSD de 500 GB
 
+## Paquetes Adicionales
+- **Framework de Seguridad:** Spring Security 5.4.x
+- **Autenticación:** OAuth 2.0
+- **Librerías de Frontend:** React 17.x, Redux 4.x
 
+## Versión de Java
+- **JDK:** OpenJDK 11
+
+## Dependencias de Software
+- **Gestión de Paquetes:** Maven 3.6.x
+- **Control de Versiones:** Git 2.30.x
