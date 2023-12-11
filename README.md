@@ -30,6 +30,7 @@ En resumen: El resultado final del proyecto para RPA INMOBILIARIA será un siste
 - [Configuración-Instalación](#Configuración-Instalación)
 - [Configuración-Producto](#Configuración-Producto)
 - [Uso](#Uso)
+- [Contribución].(#Contribución)
 
 ## Descripción
 El proyecto consiste en el desarrollo de un sistema digital integral para la gestión de propiedades de la empresa RPA Inmobiliaria. El sistema busca automatizar y optimizar los procesos administrativos y operativos relacionados con la administración de condominios.
@@ -220,25 +221,31 @@ Agradecemos las contribuciones de todos los usuarios. Si deseas contribuir al pr
    ```bash
    git clone https://github.com/mjbrayan23/proyecto-RPAInmobiliaria.git
    
-## Crea un nuevo branch para tus cambios:
+## Haciendo-Cambios:
+1. Crea un nuevo branch para tus cambios:
 ```bash
-git checkout -b nombre-de-tu-branch
-
-# Haz tus cambios en el código localmente.
-# A segúrate de seguir las guías de estilo del código y añade pruebas si es posible.
-# Pull Request
-# Haz commit a tus cambios:
-git commit -m "Añade una descripción detallada de tus cambios"
-# Envía tus cambios al repositorio remoto:
-git push origin nombre-de-tu-branch
-# Ve a GitHub y crea un nuevo Pull Request desde tu branch.
-# Describe los cambios y cualquier otro detalle relevante para tu PR.
+  git checkout -b nombre-de-tu-branch
 ```
+2. Haz tus cambios en el código localmente.
+3. Asegúrate de seguir las guías de estilo del código y añade pruebas si es posible.
+
+## Pull Request
+1. Haz commit a tus cambios:
+```bash
+  git commit -m "Añade una descripción detallada de tus cambios"
+```
+2.  Envía tus cambios al repositorio remoto:
+```bash
+  git push origin nombre-de-tu-branch
+```
+3. Ve a GitHub y crea un nuevo Pull Request desde tu branch.
+4. Describe los cambios y cualquier otro detalle relevante para tu PR.
+
 ## Después del Pull Request
-Espera feedback o la aprobación del Pull Request por parte de los mantenedores del proyecto.
-Puede que se te pida hacer modificaciones adicionales.
-Una vez aprobado, un mantenedor hará merge de tu PR.
-Asegúrate de revisar la documentación del proyecto y cualquier otra guía de contribución proporcionada para más detalles sobre el proceso de contribución.
+1. Espera feedback o la aprobación del Pull Request por parte de los mantenedores del proyecto.
+2. Puede que se te pida hacer modificaciones adicionales.
+4. Una vez aprobado, un mantenedor hará merge de tu PR.
+5. Asegúrate de revisar la documentación del proyecto y cualquier otra guía de contribución proporcionada para más detalles sobre el proceso de contribución.
 ```bash
 Asegúrate de personalizar las instrucciones de contribución para adaptarse a las políticas y procedimientos específicos de tu proyecto.
 
