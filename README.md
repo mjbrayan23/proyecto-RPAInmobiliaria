@@ -221,10 +221,26 @@ Agradecemos las contribuciones de todos los usuarios. Si deseas contribuir al pr
    git clone https://github.com/mjbrayan23/proyecto-RPAInmobiliaria.git
    
 ## Crea un nuevo branch para tus cambios:
+```bash
 git checkout -b nombre-de-tu-branch
 
-Haz tus cambios en el código localmente.
-Asegúrate de seguir las guías de estilo del código y añade pruebas si es posible.
+# Haz tus cambios en el código localmente.
+# A segúrate de seguir las guías de estilo del código y añade pruebas si es posible.
+# Pull Request
+# Haz commit a tus cambios:
+git commit -m "Añade una descripción detallada de tus cambios"
+# Envía tus cambios al repositorio remoto:
+git push origin nombre-de-tu-branch
+# Ve a GitHub y crea un nuevo Pull Request desde tu branch.
+# Describe los cambios y cualquier otro detalle relevante para tu PR.
+```
+## Después del Pull Request
+Espera feedback o la aprobación del Pull Request por parte de los mantenedores del proyecto.
+Puede que se te pida hacer modificaciones adicionales.
+Una vez aprobado, un mantenedor hará merge de tu PR.
+Asegúrate de revisar la documentación del proyecto y cualquier otra guía de contribución proporcionada para más detalles sobre el proceso de contribución.
+```bash
+Asegúrate de personalizar las instrucciones de contribución para adaptarse a las políticas y procedimientos específicos de tu proyecto.
 
 
 
