@@ -141,6 +141,7 @@ git push heroku main
 heroku run npm run migrate
 
 Recuerda reemplazar `nombre-de-tu-app` con el nombre que le quieras dar a tu aplicación en Heroku y ajustar cualquier comando según las necesidades específicas de tu proyecto.
+```
 
 # Configuración
 
