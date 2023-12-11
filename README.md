@@ -27,6 +27,7 @@ En resumen: El resultado final del proyecto para RPA INMOBILIARIA será un siste
 - [Adicionales](#Adicionales)
 - [Versión-Java](#Versión-Java)
 - [Dependencias](#Dependencias)
+- [Configuración](#Configuración)
 
 ## Descripción
 El proyecto consiste en el desarrollo de un sistema digital integral para la gestión de propiedades de la empresa RPA Inmobiliaria. El sistema busca automatizar y optimizar los procesos administrativos y operativos relacionados con la administración de condominios.
@@ -94,3 +95,50 @@ La inclusión de estos componentes adicionales dependerá de los requisitos espe
 ## Dependencias
 - **Gestión de Paquetes:** Maven 3.6.x
 - **Control de Versiones:** Git 2.30.x
+
+# Instalación
+
+## Configuración
+
+Para iniciar el entorno de desarrollo en tu máquina local, sigue estos pasos:
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/mjbrayan23/proyecto-RPAInmobiliaria.git
+
+# Cambiar al directorio del proyecto
+cd proyecto-RPAInmobiliaria
+
+# Instalar las dependencias de Node.js (asegúrate de tener Node.js instalado)
+npm install
+
+# Si el proyecto utiliza una base de datos, configura las variables de entorno para la conexión a la base de datos
+
+# Iniciar la aplicación en modo de desarrollo
+npm start
+
+# Ejecutar pruebas
+npm test
+
+# Construir la aplicación para producción
+npm run build
+
+# Iniciar el servidor en modo producción (puede requerir un servidor web como nginx o Apache)
+npm run serve
+
+# Iniciar sesión en Heroku CLI (debes tener Heroku CLI instalado)
+heroku login
+
+# Crear una nueva aplicación en Heroku
+heroku create nombre-de-tu-app
+
+# Desplegar la aplicación en Heroku
+git push heroku main
+
+# Ejecutar migraciones de base de datos o cualquier paso de configuración final necesario
+heroku run npm run migrate
+
+Recuerda reemplazar `nombre-de-tu-app` con el nombre que le quieras dar a tu aplicación en Heroku y ajustar cualquier comando según las necesidades específicas de tu proyecto.
+
+
+
