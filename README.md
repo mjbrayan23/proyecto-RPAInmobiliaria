@@ -17,6 +17,11 @@ En resumen: El resultado final del proyecto para RPA INMOBILIARIA será un siste
 
 # Fase lV del proyecto (resultados y documentación)
 # Sistema de Gestión Inmobiliaria
+## Tabla de Contenido 
+- [Descripción](#descripción)
+- [Problema](#problema)
+- [Solución](#solución)
+- [Arquitectura](#arquitectura)
 
 ## Descripción
 El proyecto consiste en el desarrollo de un sistema digital integral para la gestión de propiedades de la empresa RPA Inmobiliaria. El sistema busca automatizar y optimizar los procesos administrativos y operativos relacionados con la administración de condominios.
@@ -28,7 +33,7 @@ RPA Inmobiliaria actualmente lleva todos sus procesos de forma manual a través 
 - Alta probabilidad de errores humanos
 - Imposibilidad de acceder a información de manera rápida y sencilla
 
-## Solución 
+## Solución
 La solución consiste en una plataforma web que digitaliza los procesos en 4 módulos principales:
 - Gestión de inquilinos y unidades
 - Procesamiento de pagos y cuotas
@@ -40,8 +45,5 @@ Esto permite automatizar tareas manuales, reducir errores, mejorar eficiencia y 
 ## Arquitectura
 La arquitectura técnica utiliza React para el frontend, Node.js en el backend, bases de datos MySQL, implementado en AWS para escalabilidad. La interfaz de usuario es responsive, intuitiva y sigue estándares de accesibilidad.
 
-## Tabla de Contenido 
-1. [Descripción](#descripción)  
-2. [Problema](#problema)
-3. [Solución](#solución)
-4. [Arquitectura](#arquitectura)
+
+
