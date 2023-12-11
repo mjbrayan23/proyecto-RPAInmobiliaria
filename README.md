@@ -13,3 +13,29 @@ El producto final esperado del proyecto para RPA INMOBILIARIA es un sistema de g
 El sistema estará diseñado para ser robusto, seguro y escalable, permitiendo a RPA INMOBILIARIA adaptarse a medida que crece y se expande su portafolio de propiedades. Este producto final no solo mejorará la eficiencia operativa, sino que también mejorará la experiencia del cliente y proporcionará a la empresa una ventaja competitiva en el mercado.
 
 En resumen: El resultado final del proyecto para RPA INMOBILIARIA será un sistema de gestión de propiedades digitalizado y completo que transformará la administración manual de inmuebles en un proceso automatizado, eficiente y seguro. Este sistema proporcionará una interfaz de usuario intuitiva para la gestión de cuotas, el seguimiento del mantenimiento y la administración del personal, facilitando la transición del papel al digital y mejorando significativamente la eficiencia operativa y la satisfacción del cliente. Con funcionalidades robustas, documentación detallada y soporte técnico, el sistema está diseñado para ser escalable y adaptable a las necesidades futuras de la empresa, estableciendo una base sólida para el crecimiento y la expansión de RPA INMOBILIARIA.
+
+
+# Fase lV del proyecto (resultados y documentación)
+# Sistema de Gestión Inmobiliaria
+
+## Descripción
+El proyecto consiste en el desarrollo de un sistema digital integral para la gestión de propiedades de la empresa RPA Inmobiliaria. El sistema busca automatizar y optimizar los procesos administrativos y operativos relacionados con la administración de condominios.
+
+## Problema
+RPA Inmobiliaria actualmente lleva todos sus procesos de forma manual a través de papel. Esto genera ineficiencias, pérdida de información y dificultad para escalar. Algunos problemas específicos son:
+- Demora en el procesamiento manual de pagos de cuotas
+- Falta de trazabilidad en las tareas de mantenimiento
+- Alta probabilidad de errores humanos
+- Imposibilidad de acceder a información de manera rápida y sencilla
+
+## Solución 
+La solución consiste en una plataforma web que digitaliza los procesos en 4 módulos principales:
+- Gestión de inquilinos y unidades
+- Procesamiento de pagos y cuotas
+- Coordinación de mantenimientos
+- Análisis de métricas e informes
+
+Esto permite automatizar tareas manuales, reducir errores, mejorar eficiencia y satisfacción del cliente.
+
+## Arquitectura
+La arquitectura técnica utiliza React para el frontend, Node.js en el backend, bases de datos MySQL, implementado en AWS para escalabilidad. La interfaz de usuario es responsive, intuitiva y sigue estándares de accesibilidad.
