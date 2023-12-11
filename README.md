@@ -22,11 +22,11 @@ En resumen: El resultado final del proyecto para RPA INMOBILIARIA será un siste
 - [Problema](#problema)
 - [Solución](#solución)
 - [Arquitectura](#arquitectura)
-- [Servidores de Aplicación y Web](#Servidores de Aplicación y Web)
-- [Bases de Datos](#Bases de Datos)
-- [Paquetes Adicionales](#Paquetes Adicionales)
-- [Versión de Java](#Versión de Java)
-- [Dependencias de Software](#Dependencias de Software)
+- [Servidores](#Servidores)
+- [BD](#BD)
+- [Adicionales](#Adicionales)
+- [Versión-Java](#Versión-Java)
+- [Dependencias](#Dependencias)
 
 ## Descripción
 El proyecto consiste en el desarrollo de un sistema digital integral para la gestión de propiedades de la empresa RPA Inmobiliaria. El sistema busca automatizar y optimizar los procesos administrativos y operativos relacionados con la administración de condominios.
@@ -72,25 +72,25 @@ La inclusión de estos componentes adicionales dependerá de los requisitos espe
 
 # Requisitos del Sistema
 
-## Servidores de Aplicación y Web
+## Servidores
 - **Aplicación:** Apache Tomcat 9.x
 - **Web:** Nginx 1.18.x
 - **Balanceador de Carga:** AWS Elastic Load Balancing
 
-## Bases de Datos
+## BD
 - **Sistema de Gestión de Bases de Datos:** PostgreSQL 12.5
 - **Configuración:** 
   - Tamaño de Instancia: db.m4.large
   - Almacenamiento: SSD de 500 GB
 
-## Paquetes Adicionales
+## Adicionales
 - **Framework de Seguridad:** Spring Security 5.4.x
 - **Autenticación:** OAuth 2.0
 - **Librerías de Frontend:** React 17.x, Redux 4.x
 
-## Versión de Java
+## Versión-Java
 - **JDK:** OpenJDK 11
 
-## Dependencias de Software
+## Dependencias
 - **Gestión de Paquetes:** Maven 3.6.x
 - **Control de Versiones:** Git 2.30.x
