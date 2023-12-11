@@ -96,6 +96,7 @@ La inclusión de estos componentes adicionales dependerá de los requisitos espe
 ## Dependencias
 - **Gestión de Paquetes:** Maven 3.6.x
 - **Control de Versiones:** Git 2.30.x
+```
 
 # Instalación
 
