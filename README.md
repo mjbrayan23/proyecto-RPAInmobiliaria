@@ -30,7 +30,7 @@ En resumen: El resultado final del proyecto para RPA INMOBILIARIA será un siste
 - [Configuración-Instalación](#Configuración-Instalación)
 - [Configuración-Producto](#Configuración-Producto)
 - [Uso](#Uso)
-- [Contribución].(#Contribución)
+- [Contribución](#Contribución)
 
 ## Descripción
 El proyecto consiste en el desarrollo de un sistema digital integral para la gestión de propiedades de la empresa RPA Inmobiliaria. El sistema busca automatizar y optimizar los procesos administrativos y operativos relacionados con la administración de condominios.
