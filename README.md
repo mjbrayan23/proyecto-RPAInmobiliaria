@@ -39,3 +39,9 @@ Esto permite automatizar tareas manuales, reducir errores, mejorar eficiencia y 
 
 ## Arquitectura
 La arquitectura técnica utiliza React para el frontend, Node.js en el backend, bases de datos MySQL, implementado en AWS para escalabilidad. La interfaz de usuario es responsive, intuitiva y sigue estándares de accesibilidad.
+
+## Tabla de Contenido 
+1. [Descripción](#descripción)  
+2. [Problema](#problema)
+3. [Solución](#solución)
+4. [Arquitectura](#arquitectura)
