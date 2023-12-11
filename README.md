@@ -29,6 +29,7 @@ En resumen: El resultado final del proyecto para RPA INMOBILIARIA será un siste
 - [Dependencias](#Dependencias)
 - [Configuración-Instalación](#Configuración-Instalación)
 - [Configuración-Producto](#Configuración-Producto)
+- [Uso](#Uso)
 
 ## Descripción
 El proyecto consiste en el desarrollo de un sistema digital integral para la gestión de propiedades de la empresa RPA Inmobiliaria. El sistema busca automatizar y optimizar los procesos administrativos y operativos relacionados con la administración de condominios.
@@ -163,6 +164,53 @@ sudo apt-get install mysql-server
 sudo apt-get install nginx
 
 Este formato proporciona un esqueleto básico para documentar los pasos de configuración. Deberás personalizar el contenido con los detalles específicos de tu proyecto y su entorno.
+```
+
+# Uso
+
+## Para Usuarios Finales
+
+Los usuarios finales pueden utilizar la plataforma de gestión inmobiliaria siguiendo estos pasos:
+
+### Iniciar Sesión
+- Visita la página de inicio de sesión.
+- Ingresa tus credenciales proporcionadas por el administrador del sistema.
+
+### Gestión de Inquilinos y Unidades
+- Accede al módulo de 'Inquilinos' para ver y editar detalles de los inquilinos.
+- Utiliza la sección 'Unidades' para gestionar la información de las propiedades.
+
+### Procesamiento de Pagos
+- En el módulo de 'Pagos', revisa las cuotas pendientes.
+- Realiza pagos utilizando los métodos disponibles y obtén recibos instantáneos.
+
+### Reportes
+- Genera informes financieros y de mantenimiento desde la sección 'Reportes'.
+
+### Soporte
+- Para ayuda adicional, visita la sección de 'Soporte' o contacta al equipo técnico.
+
+## Para Administradores del Sistema
+
+Los administradores pueden gestionar la plataforma con las siguientes herramientas y procesos:
+
+### Configuración del Sistema
+- Asegúrate de revisar la configuración del sistema y personalizar los ajustes desde el panel de administración.
+
+### Gestión de Usuarios
+- Administra las cuentas de usuario, asigna roles y permisos desde la sección 'Usuarios'.
+
+### Actualizaciones de la Plataforma
+- Mantén el sistema actualizado siguiendo el procedimiento de actualización detallado en la sección 'Mantenimiento'.
+
+### Seguridad y Respaldo
+- Implementa políticas de seguridad regularmente y realiza copias de seguridad de datos para proteger contra pérdidas de información.
+
+### Análisis de Datos
+- Utiliza las herramientas de análisis para revisar el rendimiento del negocio y tomar decisiones basadas en datos.
+
+Recuerda consultar la documentación técnica detallada y los manuales de usuario proporcionados para un entendimiento completo de todas las funcionalidades.
+
 
 
 
