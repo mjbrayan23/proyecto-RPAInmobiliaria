@@ -211,6 +211,21 @@ Los administradores pueden gestionar la plataforma con las siguientes herramient
 
 Recuerda consultar la documentación técnica detallada y los manuales de usuario proporcionados para un entendimiento completo de todas las funcionalidades.
 
+# Contribución
+
+Agradecemos las contribuciones de todos los usuarios. Si deseas contribuir al proyecto, por favor sigue estos pasos:
+
+## Configuración Inicial
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/mjbrayan23/proyecto-RPAInmobiliaria.git
+   
+## Crea un nuevo branch para tus cambios:
+git checkout -b nombre-de-tu-branch
+
+Haz tus cambios en el código localmente.
+Asegúrate de seguir las guías de estilo del código y añade pruebas si es posible.
+
 
 
 
