@@ -27,7 +27,8 @@ En resumen: El resultado final del proyecto para RPA INMOBILIARIA será un siste
 - [Adicionales](#Adicionales)
 - [Versión-Java](#Versión-Java)
 - [Dependencias](#Dependencias)
-- [Configuración](#Configuración)
+- [Configuración-Instalación](#Configuración-Instalación)
+- [Configuración-Producto](#Configuración-Producto)
 
 ## Descripción
 El proyecto consiste en el desarrollo de un sistema digital integral para la gestión de propiedades de la empresa RPA Inmobiliaria. El sistema busca automatizar y optimizar los procesos administrativos y operativos relacionados con la administración de condominios.
@@ -98,7 +99,7 @@ La inclusión de estos componentes adicionales dependerá de los requisitos espe
 
 # Instalación
 
-## Configuración
+## Configuración-Instalación
 
 Para iniciar el entorno de desarrollo en tu máquina local, sigue estos pasos:
 
@@ -139,6 +140,27 @@ git push heroku main
 heroku run npm run migrate
 
 Recuerda reemplazar `nombre-de-tu-app` con el nombre que le quieras dar a tu aplicación en Heroku y ajustar cualquier comando según las necesidades específicas de tu proyecto.
+
+# Configuración
+
+## Configuración-Producto
+
+Antes de ejecutar la aplicación, necesitas configurar los archivos de entorno:
+
+```bash
+# Copia el archivo de ejemplo de configuración y ajusta los valores según tu entorno
+cp .env.example .env
+
+# Edita el archivo .env con las variables de entorno necesarias
+# Por ejemplo, define las conexiones a la base de datos, claves de API, etc.
+
+# Por ejemplo, si necesitas instalar un servidor de base de datos como MySQL:
+sudo apt-get install mysql-server
+
+# O si necesitas configurar un servidor web como Nginx:
+sudo apt-get install nginx
+
+Este formato proporciona un esqueleto básico para documentar los pasos de configuración. Deberás personalizar el contenido con los detalles específicos de tu proyecto y su entorno.
 
 
 
