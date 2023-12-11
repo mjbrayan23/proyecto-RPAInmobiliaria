@@ -263,6 +263,19 @@ El desarrollo futuro del proyecto `proyecto-RPAInmobiliaria` incluirá varias me
 Estos elementos se implementarán progresivamente, con el objetivo de mejorar continuamente la plataforma y satisfacer las necesidades de los usuarios.
 
 
+![image](https://github.com/mjbrayan23/proyecto-RPAInmobiliaria/assets/84410509/650cb700-d653-46ce-964f-d0c6cc8abff1)
+
+![image](https://github.com/mjbrayan23/proyecto-RPAInmobiliaria/assets/84410509/1c7ff547-ac1e-48aa-84a2-4d68782d45eb)
+
+![image](https://github.com/mjbrayan23/proyecto-RPAInmobiliaria/assets/84410509/211469c2-d07c-4c83-a313-b47901ac42ff)
+
+![image](https://github.com/mjbrayan23/proyecto-RPAInmobiliaria/assets/84410509/242be6bb-a28d-40c3-a274-813d67a20088)
+
+
+
+
+
+
 
 
 
